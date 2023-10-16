@@ -34,5 +34,6 @@ if die in fruit:
         fruit.remove(die)
 else:
     print('that is not in the list')
+    fruit.append(die)
 
 print(fruit)
